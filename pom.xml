@@ -71,4 +71,16 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>      
+      <id>deployment</id>
+      <name>Internal Releases</name>
+      <url>http://172.31.2.172:8081/repository/testNexus/</url>     
+    </repository>
+    <snapshotRepository>      
+      <id>deployment</id>
+      <name>Internal Snapshots Releases</name>
+      <url>http://172.31.2.172:8081/repository/textNexusRelease/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
