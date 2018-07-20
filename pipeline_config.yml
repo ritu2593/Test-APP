@@ -42,7 +42,7 @@ stages:
     nexus:
       version: nexus3
       url: 172.31.2.172:8081
-      repository: testNexus
+      repository: testNexus/
       credentialsId: 'nexusCredit'
       additionalClassifiers:
         - type: jar
