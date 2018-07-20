@@ -41,7 +41,7 @@ stages:
   artifactDeployment:
     nexus:
       version: nexus3
-      url: 172.31.2.172:8081/
+      url: 172.31.2.172:8081
       repository: testNexus
       credentialsId: 'nexusCredit'
       additionalClassifiers:
