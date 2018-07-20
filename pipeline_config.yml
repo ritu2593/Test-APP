@@ -38,15 +38,15 @@ stages:
 #      - ''
 #    nonErpDestinations:
 #      - ''
-artifactDeployment:
-  nexus:
-    version: nexus3
-    url: 172.31.2.172:8081/repository/
-    repository: testNexus
-    credentialsId: 'nexusCredit'
-    additionalClassifiers:
-      - type: jar
-        classifier: classes
+  artifactDeployment:
+    nexus:
+      version: nexus3
+      url: 172.31.2.172:8081/repository/
+      repository: testNexus
+      credentialsId: 'nexusCredit'
+      additionalClassifiers:
+        - type: jar
+          classifier: classes
         
   productionDeployment:
     forceDowntimeDeployment: true
