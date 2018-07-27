@@ -45,7 +45,7 @@ stages:
       repository: testNexus
       credentialsId: 'nexusCredit'
       additionalClassifiers:
-        - type: jar
+        - type: war
           classifier: classes
         
   productionDeployment:
