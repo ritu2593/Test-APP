@@ -46,7 +46,6 @@ stages:
       credentialsId: 'nexusCredit'
       additionalClassifiers:
         - type: war
-          classifier: classes
         
   productionDeployment:
     forceDowntimeDeployment: true
