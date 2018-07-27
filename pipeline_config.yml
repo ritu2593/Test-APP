@@ -45,8 +45,8 @@ stages:
       repository: testNexus
       credentialsId: 'nexusCredit'
       additionalClassifiers:
-        - type: war
-        
+        - type: jar
+          classifier: classes
   productionDeployment:
     forceDowntimeDeployment: true
     cfTargets:
