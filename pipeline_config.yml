@@ -24,7 +24,7 @@ stages:
 
     pmdExcludes: '' # List or ANT style patterns
   
-#steps:
+#steps: 
 #checkFindbugs:
 #   excludeFilterFile : excludeFilter.xml
 
